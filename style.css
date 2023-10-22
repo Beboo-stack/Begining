@@ -909,7 +909,7 @@ footer .copyright .pro-links i:hover {
         display: block;
         align-self: center;
         border-color: #fff;
-        
+
     }
 
     #menu-btn {
@@ -1064,6 +1064,14 @@ footer .copyright .pro-links i:hover {
 }
 
 @media (max-width:475px) {
+
+    nav .navigation ul li.join {
+        display: block;
+        align-self: center;
+        border-color: #fff;
+
+    }
+
     #registration {
         display: flex;
         flex-direction: column;
