@@ -78,7 +78,7 @@ nav .navigation ul li a {
     transition: 0.3s ease;
 }
 
-nav .navigation ul li a.join {
+nav .navigation ul li.join {
     color: rgb(21, 21, 100);
     font-size: 16px;
     font-weight: 500;
@@ -898,12 +898,18 @@ footer .copyright .pro-links i:hover {
 
 @media (max-width:769px) {
     nav {
-
         padding: 15px 20px;
     }
 
     nav img {
         width: 130px;
+    }
+
+    nav .navigation ul li.join {
+        display: block;
+        align-self: center;
+        border-color: #fff;
+        
     }
 
     #menu-btn {
